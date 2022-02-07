@@ -1,0 +1,9 @@
+[Nemo Action]
+Active=true
+Name=Set as Wallpaper
+Comment=Set this image as wallpaper
+Exec=gsettings set org.gnome.desktop.background picture-uri "%U"
+Icon-Name=preferences-wallpaper
+Selection=s
+Mimetypes=image/*;
+Quote=single
